@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
   }
-
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 
 html {
     height: 100%;
